@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Gaya untuk header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Gaya untuk navigasi (tambahkan elemen menu sesuai kebutuhan) */
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Gaya untuk main content */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Gaya untuk judul utama */
+h1 {
+    font-size: 48px;
+}
+
+/* Gaya untuk judul kedua */
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Gaya untuk tautan navigasi jika dibutuhkan */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Gaya untuk hak cipta di footer */
+footer p {
+    font-size: 14px;
+}
+
+.btn-color{
+    background-color: #0e1c36;
+
+
+}
+
+.profile-image-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+
+
+.cardbody-color{
+    background-color: #ebf2fa;
+}
+
+a{
+    text-decoration: none;
+}
+
